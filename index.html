@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>TelegramJSBot</title>
+		<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+  		<!-- Nav tabs -->
+  			<ul class="nav nav-tabs" role="tablist">
+  			  <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About bot</a></li>
+  			  <li role="presentation"><a href="#privates" aria-controls="privates" role="tab" data-toggle="tab">Private messages</a></li>
+  			  <li role="presentation"><a href="#groups" aria-controls="groups" role="tab" data-toggle="tab">Group messages</a></li>
+  			  <li role="presentation"><a href="#supergroups" aria-controls="supergroups" role="tab" data-toggle="tab">Supergroup messages</a></li>
+  			</ul>
+		
+  			<!-- Tab panes -->
+  			<div class="tab-content">
+  			  <div role="tabpanel" class="tab-pane fade in active" id="about">
+  			  	About
+  			  </div>
+  			  <div role="tabpanel" class="tab-pane fade" id="privates">
+  			  	Privates
+  			  </div>
+  			  <div role="tabpanel" class="tab-pane fade" id="groups">
+  			  	Groups
+  			  </div>
+  			  <div role="tabpanel" class="tab-pane fade" id="supergroups">
+  			  	Supergroups
+  			  </div>
+  			</div>
+			</div>
+		</div>
+
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+        <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/telegram/TelegramTypes.js"></script>
+        <script src="js/telegram/TelegramMethods.js"></script>
+        <script src="js/telegram/TelegramBot.js"></script>
+        <script src="js/youtrack/API.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+		<script src="js/commands.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
